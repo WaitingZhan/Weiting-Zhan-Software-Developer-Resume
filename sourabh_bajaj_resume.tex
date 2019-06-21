@@ -15,6 +15,7 @@
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
+\usepackage{comment}
 
 
 \pagestyle{fancy}
@@ -75,7 +76,8 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://users.soe.ucsc.edu/~waiting/}{\Large Weiting Zhan}} & Email : \href{mailto:wzhan83@ucsc.edu}{wzhan83@ucsc.edu}\\
-  \href{https://users.soe.ucsc.edu/~waiting/}{https://users.soe.ucsc.edu/~waiting/} & Mobile : +1-831-818-5593 \\
+  \href{https://users.soe.ucsc.edu/~waiting/}{Homepage:https://users.soe.ucsc.edu/~waiting/} & Mobile : +1-831-818-5593 \\
+  \href{https://github.com/WaitingZhan/}{Git-hub :https://github.com/WaitingZhan/} &  \href{https://www.linkedin.com/in/weiting-zhan-ba482892//}{Linkedin:https://www.linkedin.com/in/weiting-zhan-ba482892/}
 \end{tabular*}
 
 
@@ -83,11 +85,17 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
+      {University of Califronia, Santa Cruz}{Santa Cruz, CA}
+      {Master of Science in Computer Engineer}{Sep. 2017 -- Jun. 2019}
     \resumeSubheading
-      {Birla Institute of Technology and Science}{Pilani, India}
-      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
+      {University of Chinese Academy of Sciences}{Shanghai, China}
+      {Master of Engineering in Material Science}{Sep. 2013 -- Jun. 2017}
+    \resumeSubheading
+      {Shanghai University}{Shanghai, China}
+      {Master of Science in Physics}{Sep. 2013 -- Jun. 2017}
+    \resumeSubheading
+    {Nanjin Tech University}{Nanjing, China}
+      {Bachelor of Science in Chemistry}{Sep. 2008 -- Jun. 2012}
   \resumeSubHeadingListEnd
 
 
@@ -96,86 +104,74 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Google}{Mountain View, CA}
-      {Software Engineer}{Oct 2016 - Present}
+      {IOS Development}{Santa Cruz, CA}
+      {Software Engineer}{Oct 2018 - Present}
       \resumeItemListStart
-        \resumeItem{Tensorflow}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models.}
-        \resumeItem{Apache Beam}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+        \resumeItem{ISee}
+          {Using Firebase MLKit API build an application for blind or visually impaired users. ISee read text and item in a image for blind user. \textbf{swift}}
+        \resumeItem{Ballet Terms Dictionary}
+          {Offer sound and image for each ballet Terms. \textbf{swift}}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Android Development}{Santa Cruz, CA}
+      {Software Engineer}{Oct 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{ISee}
+          {Using Firebase MLKit API build an application for blind or visually impaired users. ISee read text and item in a image for blind user. \textbf{Java}}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Natural language processing}{Santa Cruz,CA}
+      {Software Engineer}{Sep 2017 - Jun 2019}
+      \resumeItemListStart
+        \resumeItem{Tweeter Classifier}
+          {Train a classifier to classify Trump and Hillary's tweeter.  \textbf{Python,Tensor Flow}}
+        \resumeItem{Email Classifier}
+          {Train a classifier to classify Spam/ham of email. \textbf{Python,Tensor Flow, sklearn, }}
+        \resumeItem{Chat bot}
+          {Build a chat bot using sequence to sequence model. \textbf{Python, Tensor Flow,GPU}}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
+      {Computer Vision Project}{Santa Cruz, CA}
+      {Research Assistant}{Jan 2017 - Jun 2019}
       \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platfowm which allowed for creating various tasks for crowd sourding or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursesa, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+        \resumeItem{High dynamic range imaging}
+          {Heighten a picture’s dynamic range by combining 2 different exposure time pictures. \textbf{Python, OpenCV}}
+        \resumeItem{Plane sweeping stereo}
+          {Calculate homography of  2 images, Warp the image using the homography. Compute the depth for each pixel. \textbf{Python, OpenCV}}
+        \resumeItem{Optical character recognition}
+          {Evaluate the performance of Firebase MLKit with Blur Text Spot  \textbf{Python, OpenCV, Java, GPU}}
       \resumeItemListEnd
-
+      
     \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
+      {Web Development}{Santa Cruz, CA}
+      {Software Engineer}{Sep 2017 - Present}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
+        \resumeItem{ISee}
+          {Using Firebase MLKit API build an application for blind or visually impaired users on web. ISee read text and item in a image for blind user. \textbf{HTML, CSS, MySQL, PHP, jQuery and AJAX}}
       \resumeItemListEnd
-
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, CA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
+     \resumeSubheading
+      {Network protocol simulation}{Santa Cruz, CA}
+      {Software Engineer}{Oct 2018 - Apr 2019}
       \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+        \resumeItem{Slotted ALOHA  Protocol Simulation}
+          { Calculate the throughput of slotted ALOHA Protocol.\textbf{C++, NS3, Linux}}
+        \resumeItem{Chord and Space Shuffle Implementation}
+          {\textbf{Python}}
       \resumeItemListEnd
+      
 
   \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
-  \resumeSubHeadingListEnd
-
-%
-%--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
-
-
 %-------------------------------------------
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Python, Java, c++, swift, HTML, CSS, MySQL, PHP, jQuery, AJAX}
+    }
+  \resumeSubHeadingListEnd
+
 \end{document}
